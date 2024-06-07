@@ -1,0 +1,39 @@
+/* header.css */
+
+/* Base styles for the header */
+.header {
+    display: flex;
+    justify-content: center; /* Center the header horizontally */
+    align-items: center; /* Center the header vertically */
+    font-size: 1.5em;
+    opacity: 0.8;
+    background-color: moccasin; /* Set the background color */
+  }
+  
+  /* Logo styles */
+  .logo {
+    max-width: 200px; /* Adjust the maximum width of the logo */
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .header {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .logo {
+      max-width: 150px; /* Reduce logo size for smaller screens */
+    }
+  }
+  
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 576px) {
+    .header {
+      padding: 5px; /* Further reduce padding for even smaller screens */
+    }
+  
+    .logo {
+      max-width: 100px; /* Further reduce logo size for even smaller screens */
+    }
+  }
+  

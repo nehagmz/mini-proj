@@ -1,0 +1,82 @@
+/* RoastedVegetableQuichePage.css */
+
+.quiche-page {
+  background-color: white;
+  padding: 20px;
+  margin-top: 70px; /* Adjust as needed to position below the navbar */
+  position: relative; /* Ensure position context for absolute positioning of popup */
+}
+
+.quiche-name {
+  text-align: center;
+}
+
+.quiche-content {
+  display: flex;
+  flex-direction: column; /* Display items in a column */
+  align-items: center; /* Center align items horizontally */
+}
+
+.quiche-image img {
+  display: block;
+  margin: 0 auto;
+  width: 70%; /* Make the image fit the width of its container */
+  max-width: 70%; /* Ensure the image doesn't exceed its original size */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add space between the image and recipe */
+}
+
+.quiche-recipe {
+  width: 100%; /* Make recipe width the same as image width */
+  max-width: 600px; /* Limit recipe width */
+}
+
+.view-preparation-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.preparation-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #4CAF50;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  z-index: 9999;
+  max-height: 80%; /* Limit popup height */
+  overflow-y: auto; /* Enable vertical scrollbar */
+}
+
+.preparation-popup-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.preparation-steps {
+  margin-top: 20px;
+}
+
+.close-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #FF5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #E64A19; /* Darken the color on hover */
+}
+

@@ -1,0 +1,23 @@
+/* WellnessPage.css */
+
+/* Define styles for the wellness page */
+.wellness-page {
+    background-color: #fff; /* Set background color to white */
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  /* Define styles for the dish grid */
+  .dish-grid {
+    display: grid; /* Use CSS grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust columns based on available width */
+    grid-gap: 20px; /* Add gap between grid items */
+  }
+  
+  /* Define styles for each dish */
+  .dish {
+    background-color: #f0f0f0; /* Set background color for each dish */
+    padding: 20px; /* Add padding as needed */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    text-align: center; /* Center align text */
+  }
+  
